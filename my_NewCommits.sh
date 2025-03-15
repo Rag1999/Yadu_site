@@ -1,3 +1,3 @@
 git add .
-git commit -m "package start changed to node server"
+git commit -m "Fixed react-scripts issue"
 git push origin main
