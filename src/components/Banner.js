@@ -68,7 +68,7 @@ export const Banner = () => {
                 {/* <span className="tagline">Welcome to my Portfolio</span> */}
                 
                 <h1>{`Yadurshana Sivashankar,`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{"PhD"}</span></span></h1>
-                 <p><b>I am a doctoral researcher at the University of Waterloo in the Department of Cognitive Neuroscience. My research examines cognitive and neural mechanisms that benefit spatial memory and navigation across age groups. I use virtual reality, driving simulators, and fMRI technology. I also investigate memory changes due to aging, stroke, and neurodegenerative diseases.</b></p>
+                 <p><b>I am a doctoral researcher at the University of Waterloo in the Department of Cognitive Neuroscience. My research examines the cognitive and neural mechanisms underlying better retention of spatial memory and navigation across age groups. I use virtual reality, driving simulators, and fMRI technology. I also investigate memory changes due to aging, stroke, and neurodegenerative diseases.</b></p>
                  <p><b>Research Interests: </b>Spatial Memory, Aging, Neurodegenerative Diseases, Human Memory, Curiosity-driven Learning and Virtual Reality.</p>
 
  
@@ -80,7 +80,9 @@ export const Banner = () => {
                 
                 </a> */}
 
-                <a href="https://drive.google.com/file/d/15KyKccK8ipzIkpbthZbDPMNo2T6x3LwG/view?usp=sharing"
+                
+
+                <a href="https://drive.google.com/file/d/1wT5AoMyECLlvzYi48gnidGygZcbqiKUP/view?usp=sharing"
                  target="_blank"
                  rel="noopener noreferrer">
                 <button  className="resume" onClick={() => console.log('connect')}>CV <Download size={25} /></button>

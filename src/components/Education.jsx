@@ -18,7 +18,7 @@ export const Education = () => {
             <div className="text-box">
               <h2>University of Waterloo</h2>
               <small>
-                <i>Sept 2021 – Apr 2025</i>
+                <i>Sept 2021 – Present</i>
               </small>
               <p>
                 <b>PhD in Cognitive Neuroscience</b>

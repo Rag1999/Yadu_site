@@ -3,7 +3,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from "../assets/img/logo.svg";
 import logoBrain from "../assets/img/logo_brain.png";
 import navIcon1 from "../assets/img/nav-icon1.svg";
-import navIcon8 from "../assets/img/ResearchGate_icon_SVG.svg.png";
+import navIcon8 from "../assets/img/ResearchGate_noBackground.png";
 import navIcon5 from "../assets/img/OSF logo.jpg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";

@@ -16,10 +16,10 @@ export const Publications = () => {
         <div className="pub-container-card">
           <div className="pub-text-box">
             <p>
-              Sivashankar, Y., Roberts, B.R.T., & Fernandes, M.A. (in press).
+              Sivashankar, Y., Roberts, B.R.T., & Fernandes, M.A. (2025).
               Integration of representations is key to the enactment benefit:
               Insights from individuals with stroke lesions.{" "}
-              <i>Neuropsychologia</i>.
+              <i>Neuropsychologia, 211 </i>(10911), 1-11.
             </p>
 
             <span className="navbar-text">
@@ -37,9 +37,9 @@ export const Publications = () => {
         <div className="pub-container-card">
           <div className="pub-text-box">
             <p>
-              Sivashankar, Y., He, P., Sauzéon, H., &amp; Fernandes, M.A.
-              (2024). The benefit of motoric engagement at encoding on route
-              memory. <i>Spatial Cognition and Computation</i>, 1-26.
+              Sivashankar, Y., He, P., Sauz ́eon, H., & Fernandes, M.A. (2024).
+              The benefit of motoric engagement at encoding on route memory.{" "}
+              <i>Spatial Cognition and Computation, 24</i> (4), 271-296.
             </p>
 
             <span className="navbar-text">
