@@ -42,7 +42,7 @@ export const Projects = () => {
     },
     {
       title: "Patient Research",
-      description: "We examined the brain basis of the enactment effect in stroke patients who have sustained focal lesions to frontal or parietal areas of the brain. ",
+      description: "We examined the brain basis of the enactment effect in stroke patients who have sustained focal lesions to frontal or parietal areas of the brain.",
       imgUrl: patient,
       link:"https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0250761"
     },
@@ -50,7 +50,7 @@ export const Projects = () => {
     {
       title: "Influence of multitasking while driving on spatial memory",
       description: "We examined how multi-tasking while driving impacts situational awareness (measured by landmark recognition) and the spatial knowledge (measured by a sketch map drawn of the explored environment) of a driver.",
-      imgUrl: patient,
+      imgUrl: drive,
       link:"https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0250761"
     }
    
@@ -95,7 +95,7 @@ export const Projects = () => {
                         } */}
 
 
-                             <Col size={12} sm={6} md={4}>
+                             <Col size={12} sm={12} md={6} lg={6}>
 
 
                               <div className="proj-imgbx">
@@ -122,7 +122,7 @@ export const Projects = () => {
    
                             </Col>
 
-                            <Col size={12} sm={6} md={4}>
+                            <Col size={12} sm={12} md={8} lg={6}>
 
 
                               <div className="proj-imgbx">
@@ -132,6 +132,7 @@ export const Projects = () => {
                               <div className="proj-txtx">
                                 <h4>{projects[1].title}</h4>
                                 <span>{projects[1].description}</span>
+                                <br/>
 
                                 <a href="https://www.tandfonline.com/doi/full/10.1080/09658211.2021.1995877"
                                     target="_blank"
@@ -164,7 +165,7 @@ export const Projects = () => {
 
                             </Col>
 
-                            <Col size={12} sm={6} md={4}>
+                            <Col size={12} sm={12} md={6} lg={6}>
 
 
                                 <div className="proj-imgbx">
@@ -174,6 +175,8 @@ export const Projects = () => {
                                 <div className="proj-txtx">
                                   <h4>{projects[2].title}</h4>
                                   <span>{projects[2].description}</span>
+                                  <br/>
+                               
 
                                   <a href="https://www.frontiersin.org/journals/epidemiology/articles/10.3389/fepid.2023.1067492/full"
                                       target="_blank"
@@ -203,7 +206,7 @@ export const Projects = () => {
 
 
 
-                            <Col size={12} sm={6} md={4}>
+                            <Col size={12} sm={12} md={8} lg={6}>
 
 
                                 <div className="proj-imgbx">
@@ -213,6 +216,7 @@ export const Projects = () => {
                                 <div className="proj-txtx">
                                   <h4>{projects[3].title}</h4>
                                   <span>{projects[3].description}</span>
+                                  <br />
                                   
 
                                   <a href="https://www.tandfonline.com/doi/full/10.1080/13875868.2024.2359929"
@@ -249,7 +253,7 @@ export const Projects = () => {
                             </Col>
 
 
-                                <Col size={12} sm={6} md={4}>
+                                <Col size={12} sm={12} md={6} lg={6}>
 
 
                                 <div className="proj-imgbx">
@@ -259,10 +263,12 @@ export const Projects = () => {
                                 <div className="proj-txtx">
                                   <h4>{projects[4].title}</h4>
                                   <span>{projects[4].description}</span>
+                                  <br />
 
                                   <a href="https://doi.org/10.1016/j.neuropsychologia.2025.109118"
                                       target="_blank"
                                       rel="noopener noreferrer">
+                                  
                                       <button  className="resume" onClick={() => console.log('connect')}><Link size={25} /> Enactment effect in stroke patients </button>
 
                                   </a>
@@ -289,7 +295,7 @@ export const Projects = () => {
 
 
 
-                            <Col size={12} sm={6} md={4}>
+                            <Col size={12} sm={12} md={8} lg={6}>
 
 
                                     <div className="proj-imgbx">
@@ -299,6 +305,7 @@ export const Projects = () => {
                                     <div className="proj-txtx">
                                       <h4>{projects[5].title}</h4>
                                       <span>{projects[5].description}</span>
+
 
                                       <br/>
 
